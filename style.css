@@ -368,15 +368,20 @@ body {
 }
 
 #section-1-banner-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Banner-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner-1.jpg");
+    object-fit: cover;
 }
 
 #section-1-banner-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Banner-2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner-2.jpg");
+    object-fit: cover;
+
 }
 
 #section-1-banner-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Banner-3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner-3.jpg");
+    object-fit: cover;
+
 }
 
 .horizontal-slider .k1-banner-text {
@@ -803,18 +808,7 @@ body {
     font-size: 26px;
 }
 
-/* .horizontal-slider .k1-banner-text h1 {
-    font-weight: 900;
-    font-size: 55px;
-    margin: 20px 0;
-}
 
-.horizontal-slider .k1-banner-text p {
-    font-weight: 400;
-    margin: 20px 0;
-    font-size: 26px;
-
-} */
 
 .section-4 .k1-banner-text .section-4-btn {
     border: none;
@@ -1842,6 +1836,10 @@ body {
         position: relative;
     }
 
+    .leadership-landing-page h1 {
+        font-size: 42px;
+    }
+
     .left-side-of-section {
         width: 100%;
 
@@ -1860,4 +1858,180 @@ body {
         height: 250px;
         margin: 20px auto;
     }
+}
+
+
+/* contact-us page */
+
+.contact-us-main .contact-us-heading {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/k1banner.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-main .contact-us-heading h1 {
+    /* width: 80%; */
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.contact-us-content {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px 0;
+}
+
+.contact-us-details h5 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2f3490;
+}
+
+.contact-lists {
+    margin-top: 30px;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 22px;
+}
+
+.contact-lists li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.contact-lists li p:first-child {
+    color: #2f3490;
+    font-weight: 500;
+}
+
+.contact-lists li p:first-child i {
+    margin-right: 10px;
+}
+
+
+.contact-form {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+
+}
+
+.contact-form-details p {
+    font-size: 22px;
+}
+
+.contact-form-section {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+    font-size: 22px;
+    gap: 40px;
+}
+
+.contact-form-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form-section textarea,
+.contact-form-section input {
+    font-size: 22px;
+    padding: 10px 2px;
+}
+
+
+.form-email {
+    grid-column: span 2;
+}
+
+.form-message {
+    grid-column: span 2;
+}
+
+.form-submit-btn {
+    grid-column: span 2;
+    margin: auto;
+}
+
+.form-submit-btn button {
+    padding: 15px 20px;
+    background-color: #2f3490;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-content {
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 0;
+    }
+
+
+    .form-email {
+        grid-column: span 1;
+    }
+
+    .form-message {
+        grid-column: span 1;
+    }
+
+
+    .contact-form {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+
+    }
+
+    .contact-form-section {
+        width: 80%;
+        font-size: 16px;
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        padding: 20px 0;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    /* .form-email {
+        grid-column: span 1;
+    }
+
+    .form-message {
+        grid-column: span 1;
+    }
+
+    .form-submit-btn {
+        grid-column: span 1;
+        margin: auto;
+    } */
 }
