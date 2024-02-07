@@ -1,0 +1,171 @@
+KPP Website Content
+
+Home
+
+Section 1
+
+Banner 1
+Headline: Unite for Konkan's Sovereignty
+Marathi Headline: कोंकणाचं संघ: स्वतंत्रतेसाठी
+
+Sub Headline: Join Konkan Pradeshik Paksh in the Quest for Swarajya!
+
+Marathi Sub Headline: स्वराज्यासाठी कोंकण प्रांतिक पक्षात सामील व्हा!
+
+CTA: Join KPP
+
+Marathi CTA: सामील व्हा
+
+Banner 2
+Headline: Catalyzing Change, Serving Konkan with Heart
+Marathi Headline: परिवर्तनाचं कोंकणात, हृदयातून सेवा करणारं
+
+Sub Headline: Extend Your Hand for Konkan's Welfare
+
+Marathi Sub Headline: कोंकणाच्या कल्याणासाठी तुमचं हात वाढवा
+
+CTA: Join KPP
+
+Marathi CTA: सामील व्हा
+
+
+Banner 3
+
+Headline: Embracing Swarajya
+Marathi Headline: स्वराज्याचं आदर्श, आपलं मन मोहून स्वागत!
+
+Sub Headline: Join Konkan Pradeshik Paksh for a Progressive Tomorrow!
+
+Marathi Sub Headline: प्रगतीशील उद्या साठी कोंकण प्रांतिक पक्षात सामील व्हा!
+
+CTA: Join KPP
+
+Marathi CTA: सामील व्हा
+
+
+Section 2
+
+Event -top middle
+
+Headline (English): "Transforming Lives, Serving the Community:  sub heading -> Join our Compassionate Events!"
+Headline (Marathi): "जीवनांतर परिवर्तन, समुदायात सेवा: आमच्या करुणानुभवांमध्ये सामील व्हा!"
+CTA (English): "Unite Now! ServeKonkan" {cta at bottom}
+
+CTA (Marathi): "संघटित व्हा! सेवा कोंकण"
+Section 3
+
+Our Leadership - center bottom
+
+Headline (English): Visionary Leadership: Guiding Konkan Towards Prosperity and Progress!
+
+Headline (Marathi): दृढ नेतृत्व: कोंकणला समृद्धि आणि प्रगतीसाठी मार्गदर्शन करणार!
+
+balck shade imgage remove
+text main bold -> Visionary Leadership
+sub heading -> Guiding Konkan Towards Prosperity and Progress! semi bold
+button curve ServeKonkan
+
+Section 4 - middle
+Join KPP
+
+
+Headline (English): Unite for Konkan's Rise: Your Voice, Your Power – Join KPP Now!
+
+Headline (Marathi): कोंकणचं वाढवासाठी सामूहिक: तुमचं आवाज, तुमचं शक्ती – एकत्र KPP सोबत!
+same above
+ 
+Section 5 - middle
+Make a Donation
+Headline (English): Transform Konkan: Your Donation, Our Catalyst for Change!
+Headline (Marathi): कोंकण सुधारा: तुमचं दान, आमचं परिवर्तनाचं अविष्कार!
+
+cta - Donate Now
+
+
+text sections left align 
+navbar  english marathi
+buttons round
+subheadings semi bold
+
+Leadership
+4 to 5 
+quote
+photo
+
+
+
+footer 
+koin kpp button - orange
+
+navbar - blue color buttons  
+section cta orange 
+
+
+
+
+
+
+feb 6
+navbar show on scrooll up
+
+
+section 1 banner 
+ font size bada karna hai or width badhana hai --- done
+
+
+ social link adjusment
+
+
+ leadership section  --- done
+ chnage navedd png --- done
+ spacing  loose in heading  --- done
+
+
+ unite konkan size if font
+add btn join volunteer along with join kpp
+
+
+ our inspiration text size
+slider loop infinite and auto rotate  --- done
+
+transform konkan text size  --- done
+
+
+
+footer me address karna hai --- done 
+
+
+
+responsive
+
+nav logo align left and size chota
+size chota karna hai
+
+section 2 size chota karana hai
+
+leadership 
+arrow show karna hai and auto rotate 
+
+
+inspiration 
+spacing for center alingment and arrow color orange
+
+
+
+
+events Page 
+event page imgaes cuts in responsive adjusment
+ratnagiri event
+
+mumbai event
+
+
+leaders page
+leadership page imgaes size 1440
+
+
+suummaery Content add along image of leaders
+
+
+
+New Page Contact Us fool ref of ukeagle
