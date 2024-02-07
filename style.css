@@ -568,6 +568,10 @@ body {
 }
 
 /* section-2 end */
+.mySwiper-leader {
+    height: 100%;
+}
+
 .mySwiper-leader .swiper-slide {
     height: 100%;
     background-color: #000;
