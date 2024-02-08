@@ -334,6 +334,8 @@
         submitButton.disabled = true;
         e.preventDefault();
         let requestBody = new FormData(form);
+        console.log("tt req", requestBody);
+        console.log("tt type", typeof requestBody);
         fetch(scriptURL, { method: "POST", body: requestBody })
           .then((response) => {
             alert("Thank you! Your form is submitted successfully.", response);

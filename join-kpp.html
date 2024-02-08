@@ -97,7 +97,10 @@
     <section class="join-kpp-section">
       <div class="join-kpp-container">
         <header>Join KPP</header>
-        <form action="" class="join-kpp-form">
+        <form
+          name="join-kpp-form-section"
+          class="join-kpp-form join-kpp-form-section"
+        >
           <div class="column">
             <div class="kpp-title input-box">
               <label for="title">Title *</label>
@@ -110,20 +113,25 @@
             </div>
             <div class="kpp-name input-box">
               <label for="name">Name *</label>
-              <input type="text" name="name" />
+              <input type="text" name="name" id="join-kpp-name" />
             </div>
           </div>
           <div class="kpp-mobile input-box">
             <label for="mobile">Mobile No *</label>
-            <input type="text" name="mobile" />
+            <input type="text" name="mobile" id="join-kpp-mobile" />
           </div>
           <div class="kpp-email input-box">
             <label for="email">Email *</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" id="join-kpp-email" />
           </div>
           <div class="kpp-consent-btn input-box input-checkbox">
-            <input type="checkbox" name="consent-btn" />
-            <label for="consent-btn"
+            <input
+              type="checkbox"
+              name="consentBtn"
+              value="yes"
+              id="join-kpp-consentBtn"
+            />
+            <label for="consentBtn"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
               voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing
               elit. Nulla, voluptate.</label
@@ -131,7 +139,9 @@
           </div>
           <div class="column submit-and-download-section">
             <div class="kpp-form-submit-btn input-box">
-              <button type="submit">Submit</button>
+              <button type="submit" class="join-kpp-submit-button">
+                Submit
+              </button>
             </div>
             <div class="kpp-form-downlaod-btn input-box">
               <a href="img/join-kpp.pdf" download="join-kpp.pdf"
@@ -291,9 +301,36 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <script>
+      const form = document.querySelector(".join-kpp-form-section");
+      //   const form = document.forms["form-data-join-kpp"];
+
+      const submitButton = document.querySelector(".join-kpp-submit-button");
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyMNA_99f67XnlG15jkoretSWLorrRdLYLAITbVMazkOy4jYYiPeSG8K5uXU1yLn61d/exec";
+
+      form.addEventListener("submit", (e) => {
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending";
+        submitButton.disabled = true;
+        e.preventDefault();
+        let requestBody = new FormData(form);
+        console.log("tt req", requestBody);
+        console.log("tt type", typeof requestBody);
+        fetch(scriptURL, { method: "POST", body: requestBody })
+          .then((response) => {
+            alert("Thank you! Your form is submitted successfully.", response);
+            submitButton.disabled = false;
+            submitButton.textContent = "Send";
+          })
+          .catch((error) => {
+            alert("Form submission failed!", error.message);
+            submitButton.disabled = false;
+          });
+      });
+    </script>
+
     <!-- Initialize Swiper -->
     <script src="swiper.js"></script>
-
-    <script src="app.js"></script>
   </body>
 </html>

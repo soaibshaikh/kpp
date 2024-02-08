@@ -150,4 +150,43 @@ openBtn.addEventListener("click", (event) => {
   navbar.classList.toggle("open");
 });
 
-// Ubed JS for Nav Toggle
+// language js
+
+// Function to update content based on selected language
+function updateContent(langData) {
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+    element.textContent = langData[key];
+  });
+}
+
+// Function to set the language preference
+function setLanguagePreference(lang) {
+  localStorage.setItem("language", lang);
+  location.reload();
+}
+
+// Function to fetch language data
+async function fetchLanguageData(lang) {
+  const response = await fetch(`locales/${lang}.json`);
+  return response.json();
+}
+
+// Function to change language
+async function changeLanguage() {
+  let langName = document.getElementById("language").value;
+  console.log("languagr change", langName);
+  await setLanguagePreference(langName);
+
+  const langData = await fetchLanguageData(langName);
+  updateContent(langData);
+  // toggleArabicStylesheet(langName); // Toggle Arabic stylesheet
+}
+
+// Call updateContent() on page load
+window.addEventListener("DOMContentLoaded", async () => {
+  const userPreferredLanguage = localStorage.getItem("language") || "en";
+  const langData = await fetchLanguageData(userPreferredLanguage);
+  updateContent(langData);
+  // toggleArabicStylesheet(userPreferredLanguage);
+});

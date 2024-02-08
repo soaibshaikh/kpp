@@ -76,20 +76,51 @@
       </button>
 
       <nav class="navbar-alignment custom-header-nav">
-        <a class="custom-header-nav-link" href="index.html">Home</a>
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-name"
+          href="index.html"
+          >Home</a
+        >
 
-        <a class="custom-header-nav-link" href="events.html">Events</a>
-        <a class="custom-header-nav-link" href="leadership.html">Our Leaders</a>
-        <a class="custom-header-nav-link" href="contact-us.html">Contact Us</a>
-        <a class="custom-header-nav-link active" href="join-kpp.html"
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-events"
+          href="events.html"
+          >Events</a
+        >
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-our-leaders"
+          href="leadership.html"
+          >Our Leaders</a
+        >
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-contact-us"
+          href="contact-us.html"
+          >Contact Us</a
+        >
+        <a
+          class="custom-header-nav-link active"
+          data-i18n="nav-tab-join-kpp"
+          href="join-kpp.html"
           >Join KPP</a
         >
-        <a class="custom-header-nav-link active" href="make-donation.html"
+        <a
+          class="custom-header-nav-link active"
+          data-i18n="nav-tab-make-donation"
+          href="make-donation.html"
           >Make a Donation</a
         >
-        <select class="custom-select" name="language" id="language">
-          <option value="eng">English</option>
-          <option value="mar">Marathi</option>
+        <select
+          class="custom-select"
+          name="language"
+          id="language"
+          onchange="changeLanguage()"
+        >
+          <option data-i18n="nav-tab-english-lang" value="en">English</option>
+          <option data-i18n="nav-tab-hindi-lang" value="hn">Marathi</option>
         </select>
       </nav>
     </header>
@@ -511,7 +542,5 @@
 
     <!-- Initialize Swiper -->
     <script src="swiper.js"></script>
-
-    <script src="app.js"></script>
   </body>
 </html>

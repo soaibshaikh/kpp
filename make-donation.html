@@ -97,7 +97,7 @@
     <section class="join-kpp-section">
       <div class="join-kpp-container">
         <header>Make Donation</header>
-        <form action="" class="join-kpp-form">
+        <form class="join-kpp-form make-donation-form">
           <div class="column">
             <div class="kpp-title input-box">
               <label for="title">Title *</label>
@@ -122,7 +122,7 @@
             <input type="email" name="email" />
           </div>
           <div class="kpp-consent-btn input-box input-checkbox">
-            <input type="checkbox" name="consent-btn" />
+            <input type="checkbox" name="consent-btn" value="yes" />
             <label for="consent-btn"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
               voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -131,7 +131,9 @@
           </div>
           <div class="column submit-and-download-section">
             <div class="kpp-form-submit-btn input-box">
-              <button type="submit">Submit</button>
+              <button type="submit" class="make-donation-form-submit-btn">
+                Submit
+              </button>
             </div>
             <div class="kpp-form-downlaod-btn input-box">
               <a href="img/join-kpp.pdf" download="join-kpp.pdf"
@@ -290,6 +292,37 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      const form = document.querySelector(".make-donation-form");
+      //   const form = document.forms["form-data-join-kpp"];
+
+      const submitButton = document.querySelector(
+        ".make-donation-form-submit-btn"
+      );
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxuqO6y2epN8PUHBwcf0tOgdyTg3o4WA3-16be7O1jY3l3ToIeQJEXxlfbN-mAW8HP0/exec";
+
+      form.addEventListener("submit", (e) => {
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending";
+        submitButton.disabled = true;
+        e.preventDefault();
+        let requestBody = new FormData(form);
+        console.log("tt req", requestBody);
+        console.log("tt type", typeof requestBody);
+        fetch(scriptURL, { method: "POST", body: requestBody })
+          .then((response) => {
+            alert("Thank you! Your form is submitted successfully.", response);
+            submitButton.disabled = false;
+            submitButton.textContent = "Send";
+          })
+          .catch((error) => {
+            alert("Form submission failed!", error.message);
+            submitButton.disabled = false;
+          });
+      });
+    </script>
 
     <!-- Initialize Swiper -->
     <script src="swiper.js"></script>
