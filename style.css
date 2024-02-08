@@ -971,7 +971,7 @@ body {
     }
 
     .inspiration-title-tag {
-
+        text-align: center;
         font-size: 30px;
         margin-top: 40px;
     }
@@ -1284,24 +1284,28 @@ body {
 
 
 
-.kpp-details h4 {
-    position: relative;
+.kpp-details {
     text-align: center;
-    width: 100%;
 }
 
-.kpp-details h4::before {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    height: 2px;
-    left: 0;
-    /* width: 50px; */
-    width: 135px;
-    width: 100%;
-    /* margin: auto; */
-    background: #ff5e14;
+.kpp-details span {
+    position: relative;
+    text-align: center;
+    width: max-content;
+    /* border-bottom: 1px solid #fff; */
+    padding-bottom: 10px;
+}
 
+.kpp-details span::before {
+    content: "";
+    display: block;
+    content: '';
+    width: 130%;
+    height: 1px;
+    background: #ff5e14;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
 }
 
 .footer .kpp-details ul a {
@@ -1317,8 +1321,6 @@ body {
 .footer .social-2 :hover {
     color: rgb(235, 73, 55);
 }
-
-
 
 /* Responsive hide */
 @media only screen and (max-width: 768px) {
@@ -1412,9 +1414,24 @@ body {
         /* margin-top: 10px; */
     }
 
-    .kpp-details h4 {
-        font-size: 16px;
+    .kpp-details span {
+        font-size: 14px;
         font-weight: 200;
+        position: relative;
+        width: max-content;
+    }
+
+
+
+    .kpp-details span::before {
+
+        width: 120px;
+        width: 130%;
+        height: 1px;
+        background: #ff5e14;
+        position: absolute;
+        bottom: 0;
+        left: -10px;
     }
 
     .footer .kpp-details ul {
