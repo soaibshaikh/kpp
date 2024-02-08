@@ -120,7 +120,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-left: 70px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1901,18 +1900,21 @@ body {
 
 .contact-us-content {
     margin-top: 50px;
-    width: 80%;
-    margin-left: auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 10px 0;
+    width: min(90%, 600px);
+    margin-inline: auto;
 }
 
-.contact-us-details h5 {
+.contact-form-details h5 {
     font-weight: 600;
     font-size: 32px;
     color: #2f3490;
+}
+
+.contact-form-details p, .contact-us-details p {
+    text-align: justify;
 }
 
 .contact-lists {
@@ -1942,12 +1944,10 @@ body {
 
 
 .contact-form {
-    padding: 10px 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 80%;
-
+    margin-bottom: 16px;
 }
 
 .contact-form-details p {
@@ -1955,12 +1955,14 @@ body {
 }
 
 .contact-form-section {
-    width: 60%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
     font-size: 22px;
-    gap: 40px;
+}
+
+.contact-form-section div:nth-child(3), .contact-form-section div:nth-child(4) {
+    grid-column: 1 / -1;
 }
 
 .contact-form-section div {
@@ -1975,22 +1977,13 @@ body {
     padding: 10px 2px;
 }
 
-
-.form-email {
-    grid-column: span 2;
-}
-
-.form-message {
-    grid-column: span 2;
-}
-
 .form-submit-btn {
-    grid-column: span 2;
-    margin: auto;
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .form-submit-btn button {
-    padding: 15px 20px;
+    padding: 15px 40px;
     background-color: #2f3490;
     color: #fff;
     border-radius: 10px;
@@ -1999,45 +1992,11 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .contact-us-content {
-        margin-top: 50px;
-        width: 90%;
-        margin-left: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        padding: 10px 0;
-    }
-
-
-    .form-email {
-        grid-column: span 1;
-    }
-
-    .form-message {
-        grid-column: span 1;
-    }
-
-
-    .contact-form {
-        padding: 10px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 80%;
-
-    }
-
+@media screen and (max-width: 640px) {
     .contact-form-section {
-        width: 80%;
-        font-size: 16px;
-        /* display: grid; */
         grid-template-columns: 1fr;
-        padding: 20px 0;
-        font-size: 16px;
-        gap: 10px;
     }
+
 
     /* .form-email {
         grid-column: span 1;
