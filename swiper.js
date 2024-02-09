@@ -175,7 +175,7 @@ async function fetchLanguageData(lang) {
 // Function to change language
 async function changeLanguage() {
   let langName = document.getElementById("language").value;
-  console.log("languagr change", langName);
+  langName = langName ? langName : localStorage.getItem("language");
   await setLanguagePreference(langName);
 
   const langData = await fetchLanguageData(langName);
@@ -186,6 +186,7 @@ async function changeLanguage() {
 // Call updateContent() on page load
 window.addEventListener("DOMContentLoaded", async () => {
   const userPreferredLanguage = localStorage.getItem("language") || "en";
+
   const langData = await fetchLanguageData(userPreferredLanguage);
   updateContent(langData);
   // toggleArabicStylesheet(userPreferredLanguage);

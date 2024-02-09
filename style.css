@@ -1540,8 +1540,10 @@ body {
 
 .section-subheading {
     /* font-size: 1px; */
+    font-size: 18px;
     color: #fff;
-    padding: 5px;
+    padding: 5px 15px;
+    text-align: justify;
 }
 
 #tranding {
@@ -1865,8 +1867,20 @@ body {
     gap: 20px;
 }
 
+.section-leader-name {
+    font-size: 40px;
+    text-align: justify;
+
+}
+
+.section-leader-designation {
+    font-size: 24px;
+    text-align: justify;
+
+}
+
 .section-leader-summary {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -1875,10 +1889,24 @@ body {
     .leadership-section {
         flex-direction: column;
         position: relative;
+        gap: 10px;
+        margin: 10px auto;
     }
 
     .leadership-landing-page h1 {
         font-size: 42px;
+    }
+
+    .section-leader-name {
+        font-size: 22px;
+    }
+
+    .section-leader-designation {
+        font-size: 18px;
+    }
+
+    .section-leader-summary {
+        font-size: 16px;
     }
 
     .left-side-of-section {
@@ -1896,7 +1924,7 @@ body {
     }
 
     .leadership-section-text-content {
-        height: 250px;
+        /* height: 250px; */
         margin: 20px auto;
     }
 }
