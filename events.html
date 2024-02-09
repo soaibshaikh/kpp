@@ -62,11 +62,7 @@
   </head>
 
   <body>
-    <!-- Ubed Nav -->
-    <header class="topnav custom-header events" id="myTopnav">
-      <!-- <a href="#home">Home</a> -->
-
-      <!-- <img href="img/logo_title.png" type="image/icon type"> </img> -->
+    <header class="topnav custom-header" id="myTopnav">
       <a class="logo" href="/">
         <img src="img/logo.png" />
       </a>
@@ -76,20 +72,51 @@
       </button>
 
       <nav class="navbar-alignment custom-header-nav">
-        <a class="custom-header-nav-link" href="index.html">Home</a>
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-name"
+          href="index.html"
+          >Home</a
+        >
 
-        <a class="custom-header-nav-link" href="events.html">Events</a>
-        <a class="custom-header-nav-link" href="leadership.html">Our Leaders</a>
-        <a class="custom-header-nav-link" href="contact-us.html">Contact Us</a>
-        <a class="custom-header-nav-link active" href="join-kpp.html"
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-events"
+          href="events.html"
+          >Events</a
+        >
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-our-leaders"
+          href="leadership.html"
+          >Our Leaders</a
+        >
+        <a
+          class="custom-header-nav-link"
+          data-i18n="nav-tab-contact-us"
+          href="contact-us.html"
+          >Contact Us</a
+        >
+        <a
+          class="custom-header-nav-link active"
+          data-i18n="nav-tab-join-kpp"
+          href="join-kpp.html"
           >Join KPP</a
         >
-        <a class="custom-header-nav-link active" href="make-donation.html"
+        <a
+          class="custom-header-nav-link active"
+          data-i18n="nav-tab-make-donation"
+          href="make-donation.html"
           >Make a Donation</a
         >
-        <select class="custom-select" name="language" id="language">
-          <option value="eng">English</option>
-          <option value="mar">Marathi</option>
+        <select
+          class="custom-select"
+          name="language"
+          id="language"
+          onchange="changeLanguage()"
+        >
+          <option data-i18n="nav-tab-english-lang" value="en">English</option>
+          <option data-i18n="nav-tab-hindi-lang" value="mr">Marathi</option>
         </select>
       </nav>
     </header>
@@ -140,18 +167,18 @@
       <div class="container">
         <h1 class="text-center section-heading">RATNAGIRI EVENT</h1>
         <p class="text-center section-subheading">
-          KONKAN Events Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dolores excepturi dolorem facere esse architecto doloremque veritatis
-          itaque enim sint eos? Est temporibus nesciunt dolores iure, ex nobis
-          laudantium! Excepturi ipsam ullam a tempore libero temporibus debitis
-          ipsum quos illo necessitatibus, officia fuga minus sint facilis!
-          Voluptates, tempore amet. Minima esse voluptas eum expedita ullam
-          sequi enim aliquid quos accusamus ab dolorum numquam ipsam quaerat
-          totam corrupti libero debitis voluptatibus exercitationem odio
-          placeat, velit assumenda maxime, dolore officia. Voluptatem tenetur
-          fugit consectetur minima ad maiores nesciunt repellendus, aperiam esse
-          sint error recusandae dolore consequuntur velit pariatur mollitia! Quo
-          laborum vitae aliquam.
+          In a landmark event, Konkan Pradeshik Paksh (KPP) made waves with the
+          declaration of its candidate and party manifesto in Ratnagiri,
+          encapsulating the spirit of democratic fervor and progressive vision.
+          The event was a culmination of extensive grassroots engagement and
+          strategic planning, reflecting KPP's unwavering commitment to
+          empowering local communities and advocating for their interests. With
+          impassioned speeches and a clear articulation of priorities, KPP
+          leaders unveiled a transformative agenda aimed at addressing pressing
+          issues and realizing the aspirations of the people of Ratnagiri. The
+          declaration ceremony served as a rallying point for supporters and
+          constituents alike, heralding a new era of responsive governance and
+          inclusive leadership in the region.
         </p>
       </div>
       <div class="container">
@@ -162,22 +189,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-1.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$20</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Special Pizza</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -185,22 +196,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-10.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$20</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Meat Ball</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -208,22 +203,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-11.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$40</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Burger</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -231,22 +210,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-12.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$15</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Frish Curry</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -254,22 +217,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-13.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$15</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Pane Cake</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -277,22 +224,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-15.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$20</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Vanilla cake</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
             <!-- Slide-start -->
@@ -300,22 +231,6 @@
               <div class="tranding-slide-img">
                 <img src="img/event-16.jpg" alt="Tranding" />
               </div>
-              <!-- <div class="tranding-slide-content">
-                <h1 class="food-price">$8</h1>
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">Straw Cake</h2>
-                  <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3>
-                </div>
-              </div> -->
             </div>
             <!-- Slide-end -->
           </div>
@@ -338,18 +253,18 @@
       <div class="container">
         <h1 class="text-center section-heading">MUMBAI EVENT</h1>
         <p class="text-center section-subheading">
-          Ratnagiri Events Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Dolores excepturi dolorem facere esse architecto doloremque
-          veritatis itaque enim sint eos? Est temporibus nesciunt dolores iure,
-          ex nobis laudantium! Excepturi ipsam ullam a tempore libero temporibus
-          debitis ipsum quos illo necessitatibus, officia fuga minus sint
-          facilis! Voluptates, tempore amet. Minima esse voluptas eum expedita
-          ullam sequi enim aliquid quos accusamus ab dolorum numquam ipsam
-          quaerat totam corrupti libero debitis voluptatibus exercitationem odio
-          placeat, velit assumenda maxime, dolore officia. Voluptatem tenetur
-          fugit consectetur minima ad maiores nesciunt repellendus, aperiam esse
-          sint error recusandae dolore consequuntur velit pariatur mollitia! Quo
-          laborum vitae aliquam.
+          Konkan Pradeshik Paksh (KPP) marked a historic moment with the vibrant
+          launch of its Mumbai Press event, symbolizing a significant step
+          towards amplifying its voice and vision in the bustling metropolis.
+          The event brought together a diverse array of stakeholders, including
+          esteemed journalists, community leaders, and party members, in a
+          spirited celebration of solidarity and purpose. With speeches
+          resonating with passion and commitment, KPP leaders outlined their
+          vision for a more inclusive and prosperous Konkan, igniting enthusiasm
+          and hope among attendees. The launch served as a platform for
+          meaningful dialogue and collaboration, setting the stage for KPP's
+          impactful presence in Mumbai's socio-political landscape for years to
+          come.
         </p>
       </div>
       <div class="container">
@@ -535,90 +450,147 @@
     <div class="section-6">
       <footer class="footer">
         <div class="kpp-details">
-          <span>Quick Contacts</span>
+          <span class="underline-heading" data-i18n="footer-section-1-heading"
+            >Quick Contacts</span
+          >
           <ul>
             <li>
               <a href="mail"
-                ><i class="fa fa-envelope"></i> konkanpradeshikpaksh@mail.com</a
+                ><i class="fa fa-envelope"></i>
+                <span data-i18n="footer-section-1-sub-heading-mail"
+                  >konkanpradeshikpaksh@mail.com</span
+                ></a
               >
             </li>
             <li>
               <a href="https://github.com/highflyer910"
-                ><i class="fa fa-address-book"></i> +91 9876543210</a
+                ><i class="fa fa-address-book"></i>
+                <span data-i18n="footer-section-1-sub-heading-mobile">
+                  +91 9876543210</span
+                ></a
               >
             </li>
             <li>
               <a href="googel maps" class="footer-address"
-                ><i class="fa fa-location-arrow"></i> Address Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Dolore, saepe!</a
+                ><i class="fa fa-location-arrow"></i>
+                <span data-i18n="footer-section-1-sub-heading-address"
+                  >Address Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Dolore, saepe!</span
+                ></a
               >
             </li>
           </ul>
         </div>
 
         <div class="kpp-details">
-          <span>Page Links</span>
+          <span class="underline-heading" data-i18n="footer-section-2-heading"
+            >Page Links</span
+          >
           <ul>
             <li>
-              <a href="index.html">Home</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-home"
+                href="index.html"
+                >Home</a
+              >
             </li>
             <li>
-              <a href="events.html">Events</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-events"
+                href="events.html"
+                >Events</a
+              >
             </li>
             <li>
-              <a href="leadership.html">Our Leaders</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-our-leaders"
+                href="leadership.html"
+                >Our Leaders</a
+              >
             </li>
             <li>
-              <a href="contact-us.html">ContactUs</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-contact-us"
+                href="contact-us.html"
+                >Contact Us</a
+              >
             </li>
             <li>
-              <a href="join-kpp.html">Join KPP</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-join-kpp"
+                href="join-kpp.html"
+                >Join KPP</a
+              >
             </li>
             <li>
-              <a href="make-donation.html">Make Donation</a>
+              <a
+                data-i18n="footer-section-2-sub-heading-tab-make-donation"
+                href="make-donation.html"
+                >Make Donation</a
+              >
             </li>
           </ul>
         </div>
 
         <div class="kpp-details">
-          <span>Social Links</span>
+          <span data-i18n="footer-section-3-heading" class="underline-heading"
+            >Social Links</span
+          >
           <ul>
             <li class="facebook-icon">
               <a
                 href="https://whatsapp.com/channel/0029VaIepBHHQbRwRwe0yJ13"
                 target="_whatsapp"
-                ><i class="fa fa-whatsapp"></i> Whatsapp</a
+                ><i class="fa fa-whatsapp"></i>
+                <span data-i18n="footer-section-3-sub-heading-whatsapp"
+                  >Whatsapp</span
+                ></a
               >
             </li>
             <li class="facebook-icon">
               <a
                 href="https://youtube.com/@KonkanPradeshikPaksh"
                 target="_youtube"
-                ><i class="fa fa-youtube"></i> YouTube</a
+                ><i class="fa fa-youtube"></i>
+                <span data-i18n="footer-section-3-sub-heading-youtube"
+                  >YouTube</span
+                ></a
               >
             </li>
             <li>
               <a
                 href="https://www.facebook.com/profile.php?id=61554735104454"
                 target="_facebook"
-                ><i class="fa fa-facebook-square"></i> Facebook</a
+                ><i class="fa fa-facebook-square"></i>
+                <span data-i18n="footer-section-3-sub-heading-facebook"
+                  >Facebook</span
+                ></a
               >
             </li>
             <li class="telegram-icon">
               <a href="https://t.me/+K0y6XJPdid4yMThl" target="_telegram"
-                ><i class="fa fa-telegram"></i> Telegram</a
+                ><i class="fa fa-telegram"></i>
+                <span data-i18n="footer-section-3-sub-heading-telegram"
+                  >Telegram</span
+                ></a
               >
             </li>
             <li class="facebook-icon instagram-icon">
               <a
                 href="https://www.instagram.com/konkanpradesh"
                 target="_instagram"
-                ><i class="fa fa-instagram"></i> Instagram</a
+                ><i class="fa fa-instagram"></i>
+                <span data-i18n="footer-section-3-sub-heading-instagram"
+                  >Instagram</span
+                ></a
               >
             </li>
             <li class="facebook-icon twitter-icon">
               <a href="https://x.com/konkanpradesh" target="_twitter"
-                ><i class="fa fa-twitter"></i> Twitter</a
+                ><i class="fa fa-twitter"></i>
+                <span data-i18n="footer-section-3-sub-heading-twitter"
+                  >Twitter</span
+                ></a
               >
             </li>
           </ul>
@@ -626,8 +598,11 @@
       </footer>
       <div class="copyright">
         <p>
-          Copyright &copy; 2024, All Right Reserved
-          <a>Konkan Pradeshik Paksh</a>
+          <span data-i18n="footer-section-copyright-1">Copyright</span>
+          &copy;
+          <span data-i18n="footer-section-copyright-2"
+            >2024, All Right Reserved Konkan Pradeshik Paksh</span
+          >
         </p>
       </div>
     </div>

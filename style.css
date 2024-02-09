@@ -1308,15 +1308,16 @@ body {
     text-align: center;
 }
 
-.kpp-details span {
+.kpp-details .underline-heading {
     position: relative;
     text-align: center;
     width: max-content;
     /* border-bottom: 1px solid #fff; */
     padding-bottom: 10px;
+    font-size: 18px;
 }
 
-.kpp-details span::before {
+.kpp-details .underline-heading::before {
     content: "";
     display: block;
     content: '';
@@ -1436,7 +1437,7 @@ body {
         /* margin-top: 10px; */
     }
 
-    .kpp-details span {
+    .kpp-details .underline-heading {
         font-size: 14px;
         font-weight: 200;
         position: relative;
@@ -1445,7 +1446,7 @@ body {
 
 
 
-    .kpp-details span::before {
+    .kpp-details .underline-heading::before {
 
         width: 120px;
         width: 130%;
@@ -1720,7 +1721,7 @@ body {
 .tranding-slider-control {
     position: relative;
     /* margin-bottom: 2px; */
-    bottom: 3rem;
+    bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1761,18 +1762,19 @@ body {
 
 .tranding-slider-control .slider-arrow {
     background: var(--white);
-    width: 3.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
+    width: 4.5rem;
+    height: 2.5rem;
+    /* border-radius: 50%; */
     left: 42%;
     transform: translateX(-42%);
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
 }
 
 .tranding-slider-control .slider-arrow ion-icon {
-    font-size: 2rem;
+    font-size: 42px;
     color: #222224;
     color: #fff;
+    z-index: 1000;
 }
 
 .tranding-slider-control .slider-arrow::after {
@@ -1782,7 +1784,7 @@ body {
 .tranding-slider-control .swiper-pagination {
     position: relative;
     width: 15rem;
-    bottom: 1rem;
+    bottom: 2rem;
 }
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
@@ -1865,7 +1867,7 @@ body {
 
 .section-leader-summary {
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -1904,7 +1906,7 @@ body {
 
 .contact-us-main .contact-us-heading {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/k1banner.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Contact-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
@@ -2024,18 +2026,7 @@ body {
     }
 
 
-    /* .form-email {
-        grid-column: span 1;
-    }
 
-    .form-message {
-        grid-column: span 1;
-    }
-
-    .form-submit-btn {
-        grid-column: span 1;
-        margin: auto;
-    } */
 }
 
 
@@ -2051,7 +2042,7 @@ body {
     background: rgb(130, 106, 251);
     background: #fff;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/k1banner.jpeg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner-3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Join-KPP_Join-KPP.jpg");
 
 }
 
