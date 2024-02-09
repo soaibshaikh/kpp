@@ -244,6 +244,26 @@ body {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
 
+.social ul .twitter-icon a {
+    display: flex;
+    align-items: center;
+    padding: auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.social ul .twitter-icon img {
+    color: #fff;
+    /* background: rgb(39, 124, 170); */
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+
+.social ul li:hover img,
 .social ul li:hover i {
     color: #fff;
     background: rgba(0, 0, 0, 0.36);
@@ -280,6 +300,7 @@ body {
 
 
 /* Ubed Social */
+.social ul li img,
 .social ul li i {
     display: inline-flex;
     justify-content: center;
@@ -900,7 +921,7 @@ body {
 
 .mySwiper3 {
     width: 98%;
-    height: 75%;
+    height: 65%;
     top: 10%;
 
 }
@@ -1306,6 +1327,8 @@ body {
     bottom: 0;
     left: -10px;
 }
+
+
 
 .footer .kpp-details ul a {
     text-decoration: none;

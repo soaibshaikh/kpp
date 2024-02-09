@@ -47,26 +47,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
 
-    <!-- for footer -->
-    <!-- <link
-     rel="stylesheet"
-     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-   /> -->
     <link rel="stylesheet" href="style.css" />
-
-    <!-- for footer -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    /> -->
   </head>
 
   <body>
-    <!-- Ubed Nav -->
     <header class="topnav custom-header" id="myTopnav">
-      <!-- <a href="#home">Home</a> -->
-
-      <!-- <img href="img/logo_title.png" type="image/icon type"> </img> -->
       <a class="logo" href="/">
         <img src="img/logo.png" />
       </a>
@@ -120,16 +105,16 @@
           onchange="changeLanguage()"
         >
           <option data-i18n="nav-tab-english-lang" value="en">English</option>
-          <option data-i18n="nav-tab-hindi-lang" value="hn">Marathi</option>
+          <option data-i18n="nav-tab-hindi-lang" value="mr">Marathi</option>
         </select>
       </nav>
     </header>
 
     <nav class="social">
       <ul>
-        <li>
+        <li class="twitter-icon">
           <a href="https://x.com/konkanpradesh" target="__twitter"
-            ><i class="fa fa-twitter"></i> Twitter</a
+            ><img src="/img/x-twitter.svg" alt="" /> Twitter</a
           >
         </li>
         <li class="instagram-icon">
@@ -168,32 +153,57 @@
               <div class="swiper-slide">
                 <div class="horizontal-slider" id="section-1-banner-1">
                   <div class="k1-banner-text">
-                    <h1>Unite for Konkan's Sovereignty</h1>
-                    <p>
+                    <h1 data-i18n="home-banner-1-heading">
+                      Unite for Konkan's Sovereignty
+                    </h1>
+                    <p data-i18n="home-banner-1-sub-heading">
                       Join Konkan Pradeshik Paksh in the Quest for Swarajya!
                     </p>
-                    <button class="horizontal-slider-btn">Join KPP</button>
+                    <button
+                      data-i18n="home-banner-1-btn-1"
+                      class="horizontal-slider-btn"
+                    >
+                      Join KPP
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="horizontal-slider" id="section-1-banner-2">
                   <div class="k1-banner-text">
-                    <h1>Catalyzing Change,</h1>
-                    <h1>Serving Konkan with Heart</h1>
-                    <p>Extend Your Hand for Konkan's Welfare</p>
-                    <button class="horizontal-slider-btn">Join KPP</button>
+                    <h1 data-i18n="home-banner-2-heading-1">
+                      Catalyzing Change,
+                    </h1>
+                    <h1 data-i18n="home-banner-2-heading-2">
+                      Serving Konkan with Heart
+                    </h1>
+                    <p data-i18n="home-banner-2-sub-heading">
+                      Extend Your Hand for Konkan's Welfare
+                    </p>
+                    <button
+                      data-i18n="home-banner-2-btn-1"
+                      class="horizontal-slider-btn"
+                    >
+                      Join KPP
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="horizontal-slider" id="section-1-banner-3">
                   <div class="k1-banner-text">
-                    <h1>Embracing Swarajya</h1>
-                    <p>
+                    <h1 data-i18n="home-banner-3-heading">
+                      Embracing Swarajya
+                    </h1>
+                    <p data-i18n="home-banner-3-sub-heading">
                       Join Konkan Pradeshik Paksh for a Progressive Tomorrow!
                     </p>
-                    <button class="horizontal-slider-btn">Join KPP</button>
+                    <button
+                      data-i18n="home-banner-3-btn-1"
+                      class="horizontal-slider-btn"
+                    >
+                      Join KPP
+                    </button>
                   </div>
                 </div>
               </div>
@@ -207,11 +217,17 @@
           <div class="section-2">
             <div class="k1-banner-text">
               <div class="k1-banner-text-heading">
-                <h1>Transforming Lives, Serving the Community</h1>
-                <p>Join our Compassionate Events!</p>
+                <h1 data-i18n="home-section-2-heading">
+                  Transforming Lives, Serving the Community
+                </h1>
+                <p data-i18n="home-section-2-sub-heading">
+                  Join our Compassionate Events!
+                </p>
               </div>
               <div class="k1-banner-text-btn">
-                <button class="section-2-btn">Unite Now!</button>
+                <button data-i18n="home-section-2-btn-1" class="section-2-btn">
+                  Unite Now!
+                </button>
               </div>
             </div>
           </div>
@@ -225,8 +241,12 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide" style="background-color: #00673a">
                 <div class="card-content">
-                  <h2>Adv Owais Pechkar</h2>
-                  <p>Convenor</p>
+                  <h2 data-i18n="home-section-3-leader-1-heading">
+                    Adv Owais Pechkar
+                  </h2>
+                  <p data-i18n="home-section-3-leader-1-sub-heading">
+                    Convenor
+                  </p>
                 </div>
                 <div class="card-image">
                   <img src="./img/Adv-Owais-Pechkar.png" alt="Card 4" />
@@ -234,8 +254,12 @@
               </div>
               <div class="swiper-slide" style="background-color: #ef5b34">
                 <div class="card-content">
-                  <h2>Adv Vaibhav Halde</h2>
-                  <p>Co-Convenor</p>
+                  <h2 data-i18n="home-section-3-leader-2-heading">
+                    Adv Vaibhav Halde
+                  </h2>
+                  <p data-i18n="home-section-3-leader-2-sub-heading">
+                    Co-Convenor
+                  </p>
                 </div>
                 <div class="card-image">
                   <img src="./img/Adv-Vaibhav-Halde.png" alt="Card 4" />
@@ -243,8 +267,12 @@
               </div>
               <div class="swiper-slide" style="background-color: #00673a">
                 <div class="card-content">
-                  <h2>Adv Shubham Upadhyay</h2>
-                  <p>General Secretary</p>
+                  <h2 data-i18n="home-section-3-leader-3-heading">
+                    Adv Shubham Upadhyay
+                  </h2>
+                  <p data-i18n="home-section-3-leader-3-sub-heading">
+                    General Secretary
+                  </p>
                 </div>
                 <div class="card-image">
                   <img src="./img/Adv-Shubham-Upadhyay.png" alt="Card 4" />
@@ -252,11 +280,15 @@
               </div>
               <div class="swiper-slide" style="background-color: #ef5b34">
                 <div class="card-content">
-                  <h2>CA Naveed Mulla</h2>
-                  <p>Treasurer</p>
+                  <h2 data-i18n="home-section-3-leader-4-heading">
+                    CA Naveed Mulla
+                  </h2>
+                  <p data-i18n="home-section-3-leader-4-sub-heading">
+                    Treasurer
+                  </p>
                 </div>
                 <div class="card-image">
-                  <img src="./img/naveed-crop.jpeg" alt="Card 4" />
+                  <img src="./img/naveed-CA.jpeg" alt="Card 4" />
                 </div>
               </div>
             </div>
@@ -273,7 +305,12 @@
 
         <div class="swiper-slide">
           <div class="section-inspiration">
-            <h1 class="inspiration-title-tag">OUR INSPIRATION</h1>
+            <h1
+              data-i18n="home-section-4-heading"
+              class="inspiration-title-tag"
+            >
+              OUR INSPIRATION
+            </h1>
             <div class="swiper mySwiper3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -282,10 +319,16 @@
                       <img src="img/csm.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-1"
+                        class="inspiration-card-heading"
+                      >
                         Chhatrapati Shvaji Maharaj
                       </p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-role-1"
+                        class="inspiration-card-designation"
+                      >
                         Independent Ruler
                       </p>
                     </div>
@@ -297,8 +340,16 @@
                       <img src="img/mahatma-gandhi.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">Mahatma Gandhi</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-2"
+                        class="inspiration-card-heading"
+                      >
+                        Mahatma Gandhi
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-2"
+                        class="inspiration-card-designation"
+                      >
                         Leader of india
                       </p>
                     </div>
@@ -310,10 +361,16 @@
                       <img src="img/bhagat-sing.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-3"
+                        class="inspiration-card-heading"
+                      >
                         Shaheed Bhagat Singh
                       </p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-role-3"
+                        class="inspiration-card-designation"
+                      >
                         Freedom Fighter
                       </p>
                     </div>
@@ -325,8 +382,16 @@
                       <img src="img/ambedkar.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">Babasaheb Ambedkar</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-4"
+                        class="inspiration-card-heading"
+                      >
+                        Babasaheb Ambedkar
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-4"
+                        class="inspiration-card-designation"
+                      >
                         Father of the Indian Constiution
                       </p>
                     </div>
@@ -338,8 +403,16 @@
                       <img src="img/tilak.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">Lokmanya Tilak</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-5"
+                        class="inspiration-card-heading"
+                      >
+                        Lokmanya Tilak
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-5"
+                        class="inspiration-card-designation"
+                      >
                         The Father of the Indian Unrest
                       </p>
                     </div>
@@ -351,8 +424,16 @@
                       <img src="img/madhu.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">Madhu Dandavate</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-6"
+                        class="inspiration-card-heading"
+                      >
+                        Madhu Dandavate
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-6"
+                        class="inspiration-card-designation"
+                      >
                         Konkan Rail Mastermind
                       </p>
                     </div>
@@ -367,8 +448,16 @@
                       />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">Barrister Antulay</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-7"
+                        class="inspiration-card-heading"
+                      >
+                        Barrister Antulay
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-7"
+                        class="inspiration-card-designation"
+                      >
                         Indian Politician
                       </p>
                     </div>
@@ -380,8 +469,16 @@
                       <img src="img/kalam.jpeg" alt="csm" />
                     </div>
                     <div class="inspiration-content">
-                      <p class="inspiration-card-heading">A.P.J Abdul Kalam</p>
-                      <p class="inspiration-card-designation">
+                      <p
+                        data-i18n="home-section-4-inspiration-name-8"
+                        class="inspiration-card-heading"
+                      >
+                        A.P.J Abdul Kalam
+                      </p>
+                      <p
+                        data-i18n="home-section-4-inspiration-role-8"
+                        class="inspiration-card-designation"
+                      >
                         missile man of india
                       </p>
                     </div>
@@ -516,7 +613,7 @@
                   </li>
                   <li class="facebook-icon twitter-icon">
                     <a href="https://x.com/konkanpradesh" target="_twitter"
-                      ><i class="fa fa-twitter"></i> Twitter</a
+                      ><i class="fa-brands fa-x-twitter"></i> Twitter</a
                     >
                   </li>
                 </ul>
