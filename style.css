@@ -49,6 +49,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 50;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 }
 
 
@@ -796,7 +797,7 @@ body {
 
 .section-4 {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/k1banner.jpeg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Join-us.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Join-us.jpeg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -919,7 +920,7 @@ body {
 .inspiration-title-tag {
     color: whitesmoke;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     margin-left: 20px;
     margin-top: 40px;
 }
@@ -1278,6 +1279,22 @@ body {
 }
 
 
+.footer .twitter-icon a{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer .twitter-icon a img{
+height: 20px;
+width: 20px;
+}
+
+.mail-footer{
+    display: flex;
+    gap: 5px;
+}
+
 .copyright {
     width: 100%;
     display: flex;
@@ -1285,8 +1302,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: transparent;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 150px;
     color: #fff;
 }
 
@@ -1486,6 +1502,7 @@ body {
         align-items: center;
         /* background-color: #f56161; */
         padding: 30px;
+        margin-top: 100px;
     }
 
 
@@ -1539,23 +1556,24 @@ body {
 
 .section-heading {
     font-size: 3rem;
-    color: #fff;
+    color: #000;
     padding: 2rem 0;
 }
 
 .section-subheading {
     /* font-size: 1px; */
     font-size: 18px;
-    color: #fff;
+    color:#000;
     padding: 5px 15px;
-    text-align: justify;
+    width: 94%;
+    /* text-align: justify; */
 }
 
 #tranding {
     padding: 20px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/inspiration-background.jpeg");
-    /* background-color: #000; */
-    color: #fff;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Join-us.jpeg"); */
+    background-color: #fff;
+    color: #000;
     /* margin: 20px 0; */
     /* height: calc(100vh - 75px); */
 }
@@ -1568,8 +1586,9 @@ body {
 #tranding1 {
     padding: 20px 0;
     /* margin: 20px 0; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/inspiration-background.jpeg");
-
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/inspiration-background.jpeg"); */
+    background-color: #fff;
+    color: #000;
 }
 
 @media (max-width:1440px) {
@@ -1589,6 +1608,9 @@ body {
     padding: 2rem 0;
     position: relative;
 }
+
+
+
 
 /* #tranding1 .tranding-slider1 {
     height: 52rem;
@@ -1768,7 +1790,6 @@ body {
 }
 
 .tranding-slider-control .slider-arrow {
-    background: var(--white);
     width: 4.5rem;
     height: 2.5rem;
     /* border-radius: 50%; */
@@ -1780,7 +1801,6 @@ body {
 .tranding-slider-control .slider-arrow ion-icon {
     font-size: 42px;
     color: #222224;
-    color: #fff;
     z-index: 1000;
 }
 
@@ -1796,7 +1816,7 @@ body {
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
     /* filter: drop-shadow(0px 8px 24px rgba(37, 37, 192, 0.993)); */
-    background-color: #fff;
+    background-color: #000;
 }
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
@@ -1812,11 +1832,13 @@ body {
 
 .leadership-landing-page {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #003067;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner-2.jpg");
+    /* background-repeat: no-repeat;
+    background-size: contain; */
     color: #000;
     height: calc(100vh - 75px);
 }
@@ -1826,6 +1848,7 @@ body {
     padding: 0;
     font-size: 52px;
     font-weight: 900;
+    color: #fff;
 }
 
 
@@ -2070,7 +2093,6 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     padding: 20px;
     background: rgb(130, 106, 251);
     background: #fff;
@@ -2084,7 +2106,8 @@ body {
     position: relative;
     max-width: 700px;
     width: 100%;
-    margin-right: 150px;
+    margin-left: 130px;
+    margin-top: 130px;
     background: #fff;
     padding: 25px;
     border-radius: 8px;
