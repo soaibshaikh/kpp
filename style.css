@@ -634,6 +634,7 @@ body {
 
 .mySwiper-leader .card-image {
     height: 100%;
+    object-fit: cover;
     overflow: hidden;
 }
 
@@ -1517,14 +1518,17 @@ width: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00673A;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/event-18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #000;
     height: calc(100vh - 75px);
 }
 
-.events-landing-page.events {
+/* .events-landing-page.events {
     height: 100%;
-}
+} */
 
 .events-landing-page h1 {
     margin: 0;
@@ -1868,8 +1872,8 @@ width: 20px;
 }
 
 .leadership-section-image-content {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     margin: auto;
 }
 
