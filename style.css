@@ -1519,10 +1519,10 @@ width: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/event-18.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/event-16.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #fff;
     height: calc(100vh - 75px);
 }
 
