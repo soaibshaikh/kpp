@@ -130,13 +130,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    /* .logo img {
-        margin-left: 20px;
-    } */
-
     .logo {
-        /* width: 150px;
-        grid-area: logo; */
         margin-left: 0px;
     }
 }
@@ -1454,7 +1448,7 @@ body {
     }
 
     .footer .footer-address {
-        word-spacing: 10px;
+        word-spacing: 1px;
     }
 
     .kpp-details {
@@ -1882,7 +1876,7 @@ body {
 }
 
 .leadership-section-image-content {
-    width: 50%;
+    width: 80%;
     height: 50%;
     margin: auto;
 }
@@ -2157,6 +2151,7 @@ body {
         width: 90%;
     }
 
+    .contact-social-link-heading,
     .contact-us-details h5,
     .contact-form-details h3 {
         font-size: 22px;
@@ -2198,7 +2193,6 @@ body {
 .join-kpp-container {
     position: relative;
     max-width: 700px;
-    width: 100%;
     margin-left: 130px;
     margin-top: 130px;
     background: #fff;
@@ -2325,7 +2319,7 @@ body {
     }
 
     .join-kpp-container {
-        margin-right: 0;
+        margin: 120px 0 80px;
     }
 
     .join-kpp-form .column {
