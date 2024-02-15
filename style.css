@@ -1863,6 +1863,9 @@ body {
     /* background-color: #ef5b34; */
     display: flex;
     position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .left-side-of-section {
@@ -1901,19 +1904,19 @@ body {
 
 .section-leader-name {
     font-size: 40px;
-    text-align: justify;
+    text-align: center;
 
 }
 
 .section-leader-designation {
-    font-size: 24px;
-    text-align: justify;
+    font-size: 22px;
+    text-align: center;
 
 }
 
 .section-leader-summary {
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
 }
 
 
