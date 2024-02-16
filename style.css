@@ -27,15 +27,10 @@ body {
 .custom-header {
     overflow: hidden;
     position: sticky;
-    /* position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000; */
+
     background-color: #fff;
     padding: 10px;
-    /* width: 100%; */
-    /* height: 60px; */
+
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: repeat(2, min-content);
@@ -178,18 +173,18 @@ body {
 .social {
     position: fixed;
     top: 75px;
-    right: 15px;
+    right: 1px;
     z-index: 10;
 }
 
 .social ul {
     padding: 0px;
-    transform: translate(270px, 0);
+    /* transform: translate(270px, 0); */
 }
 
 
 .social ul li a {
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: none;
     color: #000;
 }
@@ -197,19 +192,15 @@ body {
 .social ul li {
     display: block;
     margin: 5px 0;
-    background: rgba(0, 0, 0, 0.36);
-    width: 300px;
-    text-align: left;
+    text-align: center;
     padding: 5px;
-    border-radius: 0 30px 30px 0;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 15px;
     transition: all 1s;
 }
 
-.social ul li:hover {
-    transform: translate(-120px, 0);
+/* .social ul li:hover {
     background: rgba(255, 255, 255, 0.4);
-}
+} */
 
 .social ul .instagram-icon i {
     color: #fff;
@@ -255,16 +246,16 @@ body {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
 
-.social ul .twitter-icon a {
+/* .social ul .twitter-icon a {
     display: flex;
     align-items: center;
     padding: auto;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
-}
+} */
 
-.social ul .twitter-icon img {
+.social ul .twitter-icon i {
     color: #fff;
-    /* background: rgb(39, 124, 170); */
+    background: rgb(0, 0, 0);
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -274,12 +265,12 @@ body {
 }
 
 
-.social ul li:hover img,
 .social ul li:hover i {
     color: #fff;
     background: rgba(0, 0, 0, 0.36);
     /*   transform: rotate(-360deg); */
     transition: all 1s;
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;s */
 }
 
 .social ul .instagram-icon:hover i {
@@ -309,14 +300,19 @@ body {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
 
+.social ul .telegram-icon:hover i {
+    color: #fff;
+    background: #0088cc;
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
 
 /* Ubed Social */
-.social ul li img,
 .social ul li i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     color: #000;
     background: #fff;
     border-radius: 50%;
@@ -652,7 +648,6 @@ body {
     transform: scale(1.1);
 }
 
-
 .section-leader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20));
     height: 100%;
@@ -940,6 +935,7 @@ body {
     width: 98%;
     height: 65%;
     top: 10%;
+    position: relative;
 
 }
 
@@ -959,6 +955,19 @@ body {
     text-align: center;
     padding: none;
     background: transparent;
+}
+
+
+.mySwiper3 .inspiration-pagination {
+    position: absolute;
+    bottom: 120px;
+    color: #fff;
+    /* background-color: #EF5B34; */
+    /* z-index: 100; */
+}
+
+.mySwiper3 .swiper-pagination-bullet-active {
+    background-color: #fff;
 }
 
 .inspiration-card {
@@ -1011,6 +1020,7 @@ body {
         text-align: center;
         font-size: 30px;
         margin-top: 40px;
+        margin-left: 0;
     }
 
     .mySwiper3 {
@@ -1020,11 +1030,13 @@ body {
     }
 
     .swiper-button-prev {
+        display: none;
         z-index: 100;
         margin-top: -60px;
     }
 
     .swiper-button-next {
+        display: none;
         z-index: 100;
         margin-top: -60px;
     }
@@ -1930,7 +1942,10 @@ body {
         flex-direction: column;
         position: relative;
         gap: 10px;
-        margin: 10px auto;
+        margin: 30px auto;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
     .leadership-landing-page h1 {
@@ -1965,7 +1980,7 @@ body {
 
     .leadership-section-text-content {
         /* height: 250px; */
-        margin: 20px auto;
+        margin: 15px auto;
     }
 }
 

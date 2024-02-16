@@ -28,10 +28,10 @@ var swiper2 = new Swiper(".mySwiper2", {
 var swiper3 = new Swiper(".mySwiper3", {
   // slidesPerView: 4,
   spaceBetween: 30,
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 
   loop: true,
   autoplay: {
@@ -44,10 +44,18 @@ var swiper3 = new Swiper(".mySwiper3", {
     640: {
       slidesPerView: 1,
       spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 40,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
     },
     1024: {
       slidesPerView: 4,
