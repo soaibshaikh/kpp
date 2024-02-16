@@ -859,6 +859,11 @@ body {
 
 }
 
+.section-4 button {
+    background-color: transparent !important;
+    margin: 5px;
+}
+
 .section-4 .k1-banner-text .section-4-btn-vln {
     border: none;
     outline: 0;

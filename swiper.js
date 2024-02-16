@@ -185,6 +185,11 @@ async function changeLanguage() {
 window.addEventListener("DOMContentLoaded", async () => {
   const userPreferredLanguage = localStorage.getItem("language") || "en";
 
+  const el = document.querySelector("body");
+  if (userPreferredLanguage != "en") {
+    el.style.fontFamily = "Khand";
+  }
+
   const langData = await fetchLanguageData(userPreferredLanguage);
   updateContent(langData);
   // toggleArabicStylesheet(userPreferredLanguage);
