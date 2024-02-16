@@ -55,7 +55,7 @@
     "home-section-transform-btn-1":"देणगी द्या!",
     "footer-section-1-heading":"जलद संपर्क",
     "footer-section-1-sub-heading-mail": "konkanpradesh@gmail.com",
-    "footer-section-1-sub-heading-mobile":"+91 9876543210 मराठी",
+    "footer-section-1-sub-heading-mobile":"9768472055 / 7218821000 / 9892180292",
     "footer-section-1-sub-heading-address":"पहिला मजला, 08, मझहर अटलांटिस, उघडा मारुती मंदिर, पाग, पॉवर हाऊस, चिपलूण, जि.:- रत्नागिरी, 415605.",
     "footer-section-2-heading":"पृष्ठ दुवे",
     "footer-section-2-sub-heading-tab-home":"होम",
@@ -105,8 +105,25 @@
     "contact-us-page-section-2-form-submit-btn":"प्रस्तुत करणे",
     "contact-us-page-section-2-form-input-placeholder-name":"आपले नांव लिहा",
     "join-kpp-page-heading":"केपीपी मध्ये सामील व्हा",
-    "make-donation-page-heading":"देणगी द्या"      
-
+    "join-kpp-page-label-title":"शीर्षक *",
+    "join-kpp-page-label-option-male":"श्री.",
+    "join-kpp-page-label-option-female":"श्रीमती.",
+    "join-kpp-page-label-name":"नाव *",
+    "join-kpp-page-label-mobile":"मोबाईल *",
+    "join-kpp-page-label-email":"ईमेल *",
+    "join-kpp-page-label-consent":"मी प्रमाणित करतो की वर दिलेली माहिती बरोबर आहे आणि त्यात कोणतीही चूक नाही. मला माहित आहे की पुढील सर्व संप्रेषण वरील दिलेल्या तपशीलांवर केले जाईल.",
+    "join-kpp-page-label-submit-btn":"प्रस्तुत करणे",
+    "join-kpp-page-link-download":"ऑफलाइन अर्जासाठी ई-फॉर्म डाउनलोड करा.",
+    "make-donation-page-heading":"देणगी द्या",
+    "make-donation-page-label-title":"शीर्षक *",
+    "make-donation-page-label-option-male":"श्री.",
+    "make-donation-page-label-option-female":"श्रीमती.",
+    "make-donation-page-label-name":"नाव *",
+    "make-donation-page-label-mobile":"मोबाईल *",
+    "make-donation-page-label-email":"ईमेल *",
+    "make-donation-page-label-consent":"मी प्रमाणित करतो की वर दिलेली माहिती बरोबर आहे आणि त्यात कोणतीही चूक नाही. मला माहित आहे की पुढील सर्व संप्रेषण वरील दिलेल्या तपशीलांवर केले जाईल.",
+    "make-donation-page-label-submit-btn":"प्रस्तुत करणे",
+    "make-donation-page-link-download":"ऑफलाइन अर्जासाठी ई-फॉर्म डाउनलोड करा."
 
 
     

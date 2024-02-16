@@ -123,60 +123,6 @@
         </select>
       </nav>
     </header>
-
-    <section class="join-kpp-section">
-      <div class="join-kpp-container">
-        <header data-i18n="make-donation-page-heading">Make Donation</header>
-        <form class="join-kpp-form make-donation-form">
-          <div class="column">
-            <div class="kpp-title input-box">
-              <label for="title">Title *</label>
-              <div class="select-box">
-                <select name="title" id="title">
-                  <option value="Mr">Mr</option>
-                  <option value="Mrs">Mrs</option>
-                </select>
-              </div>
-            </div>
-            <div class="kpp-name input-box">
-              <label for="name">Name *</label>
-              <input type="text" name="name" />
-            </div>
-          </div>
-          <div class="kpp-mobile input-box">
-            <label for="mobile">Mobile No *</label>
-            <input type="text" name="mobile" />
-          </div>
-          <div class="kpp-email input-box">
-            <label for="email">Email *</label>
-            <input type="email" name="email" />
-          </div>
-          <div class="kpp-consent-btn input-box input-checkbox">
-            <input type="checkbox" name="consent-btn" value="yes" />
-            <label for="consent-btn"
-              >I certify that above provided information is correct and there is
-              no mistake. I know that all further communication will be done on
-              above provided details.</label
-            >
-          </div>
-          <div class="column submit-and-download-section">
-            <div class="kpp-form-submit-btn input-box">
-              <button type="submit" class="make-donation-form-submit-btn">
-                Submit
-              </button>
-            </div>
-            <div class="kpp-form-downlaod-btn input-box">
-              <a
-                href="img/KONKAN-PRADESHIK-PAKSH-FORM.pdf"
-                download="join-kpp.pdf"
-                >Download e-form for offline application
-                <span><i class="fa fa-file-pdf-o"></i></span>
-              </a>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
     <nav class="social">
       <ul>
         <li class="twitter-icon">
@@ -211,6 +157,77 @@
         </li>
       </ul>
     </nav>
+
+    <section class="join-kpp-section">
+      <div class="join-kpp-container">
+        <header data-i18n="make-donation-page-heading">Make Donation</header>
+        <form class="join-kpp-form make-donation-form">
+          <div class="column">
+            <div class="kpp-title input-box">
+              <label data-i18n="make-donation-page-label-title" for="title"
+                >Title *</label
+              >
+              <div class="select-box">
+                <select name="title" id="title" required>
+                  <option value="Mr">Mr</option>
+                  <option value="Mrs">Mrs</option>
+                </select>
+              </div>
+            </div>
+            <div class="kpp-name input-box">
+              <label data-i18n="make-donation-page-label-name" for="name"
+                >Name *</label
+              >
+              <input type="text" name="name" required />
+            </div>
+          </div>
+          <div class="kpp-mobile input-box">
+            <label data-i18n="make-donation-page-label-mobile" for="mobile"
+              >Mobile No *</label
+            >
+            <input type="text" name="mobile" required />
+          </div>
+          <div class="kpp-email input-box">
+            <label data-i18n="make-donation-page-label-email" for="email"
+              >Email *</label
+            >
+            <input type="email" name="email" required />
+          </div>
+          <div class="kpp-consent-btn input-box input-checkbox">
+            <input type="checkbox" name="consent-btn" value="yes" required />
+            <label
+              for="consent-btn"
+              data-i18n="make-donation-page-label-consent"
+              >I certify that above provided information is correct and there is
+              no mistake. I know that all further communication will be done on
+              above provided details.</label
+            >
+          </div>
+          <div class="column submit-and-download-section">
+            <div class="kpp-form-submit-btn input-box">
+              <button
+                type="submit"
+                class="make-donation-form-submit-btn"
+                data-i18n="make-donation-page-label-submit-btn"
+              >
+                Submit
+              </button>
+            </div>
+            <div class="kpp-form-downlaod-btn input-box">
+              <a
+                href="img/KONKAN-PRADESHIK-PAKSH-FORM.pdf"
+                download="join-kpp.pdf"
+              >
+                <span data-i18n="make-donation-page-link-download"
+                  >Download e-form for offline application</span
+                >
+                <span><i class="fa fa-file-pdf-o"></i></span>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
 
     <!-- footer -->
     <div class="section-6">

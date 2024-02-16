@@ -133,6 +133,10 @@ body {
     .logo {
         margin-left: 0px;
     }
+
+    .custom-select {
+        font-size: 14px;
+    }
 }
 
 .navbar-open {
@@ -1304,7 +1308,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: transparent;
-    margin-top: 150px;
+    margin-top: 250px;
     color: #fff;
 }
 
@@ -1569,18 +1573,15 @@ body {
     /* font-size: 1px; */
     font-size: 18px;
     color: #000;
-    padding: 5px 15px;
+    padding: 5px;
     width: 94%;
-    /* text-align: justify; */
+    margin: auto;
 }
 
 #tranding {
     padding: 20px 0;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Join-us.jpeg"); */
     background-color: #fff;
     color: #000;
-    /* margin: 20px 0; */
-    /* height: calc(100vh - 75px); */
 }
 
 #tranding1 .swiper-wrapper,
@@ -1590,8 +1591,6 @@ body {
 
 #tranding1 {
     padding: 20px 0;
-    /* margin: 20px 0; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/inspiration-background.jpeg"); */
     background-color: #fff;
     color: #000;
 }
@@ -1616,14 +1615,6 @@ body {
 
 
 
-
-/* #tranding1 .tranding-slider1 {
-    height: 52rem;
-    padding: 2rem 0;
-    position: relative;
-} */
-
-
 @media (max-width:768px) {
 
     #tranding .section-heading,
@@ -1640,15 +1631,15 @@ body {
     }
 
     #tranding .tranding-slider {
-        height: 45rem;
+        height: 500px;
     }
 
     #tranding1 .tranding-slider1 {
-        height: 45rem;
+        height: 500px;
     }
 
     .tranding-slide {
-        width: 32rem;
+        width: 700px;
         height: 33rem;
         position: relative;
         background: transparent;
@@ -1664,24 +1655,22 @@ body {
         background: transparent;
     }
 
-    /* .tranding-slide .tranding-slide-img img {
-       
-        width: 100% !important;
-        height: auto !important;
-
-    } */
+    .swiper-slide-active img {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
 }
 
 .tranding-slide {
-    width: 37rem;
-    height: 37rem;
+    width: 800px;
     position: relative;
 }
 
+
 @media (max-width:500px) {
     .tranding-slide {
-        width: 28rem !important;
-        height: 36rem !important;
+        width: 410px !important;
+        height: 400px !important;
         background: transparent;
     }
 
@@ -1691,26 +1680,33 @@ body {
     }
 
     .tranding-slide .tranding-slide-img img {
-        /* width: 28rem !important;
-        height: 36rem !important; */
         width: 100% !important;
         height: auto !important;
 
     }
 
-    /* .tranding-slider-control {
+    .swiper-slide-active img {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
 
-        bottom: 14rem;
+    .swiper-slide-active img {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+    }
 
-    } */
+
 }
 
 .tranding-slide .tranding-slide-img img {
-    width: 37rem;
-    height: 37rem;
-    border-radius: 2rem;
+    margin: auto;
     object-fit: cover;
-    background-size: contain;
+}
+
+.swiper-slide-active img {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+    /* box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.35); */
+    border-radius: 10px;
 }
 
 .tranding-slide .tranding-slide-content {
@@ -1754,8 +1750,7 @@ body {
 
 .tranding-slider-control {
     position: relative;
-    /* margin-bottom: 2px; */
-    bottom: 1rem;
+    bottom: -3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1791,6 +1786,10 @@ body {
     .tranding-slider-control .swiper-button-prev {
         left: 20% !important;
         transform: translateX(-20%) !important;
+    }
+
+    .tranding-slider-control {
+        bottom: 30px;
     }
 }
 
@@ -1876,7 +1875,7 @@ body {
 }
 
 .leadership-section-image-content {
-    width: 80%;
+    width: 65%;
     height: 50%;
     margin: auto;
 }
@@ -2130,7 +2129,6 @@ body {
 
 .contact-social-icons a:hover img,
 .contact-social-icons a:hover i {
-    /* box-shadow: 0px 0px 150px #000000; */
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
@@ -2313,6 +2311,10 @@ body {
     align-items: center;
 }
 
+.kpp-form-downlaod-btn a span {
+    font-size: 16px;
+}
+
 @media screen and (max-width: 768px) {
     .join-kpp-section {
         justify-content: center;
@@ -2328,6 +2330,7 @@ body {
 
     .join-kpp-form a {
         font-size: 14px;
+        text-align: center;
     }
 
     .kpp-form-downlaod-btn {

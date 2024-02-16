@@ -168,26 +168,44 @@
         >
           <div class="column">
             <div class="kpp-title input-box">
-              <label for="title">Title *</label>
+              <label data-i18n="join-kpp-page-label-title" for="title"
+                >Title *</label
+              >
               <div class="select-box">
-                <select name="title" id="title">
-                  <option value="Mr">Mr</option>
-                  <option value="Mrs">Mrs</option>
+                <select name="title" id="title" required>
+                  <option
+                    data-i18n="join-kpp-page-label-option-male"
+                    value="Mr"
+                  >
+                    Mr
+                  </option>
+                  <option
+                    data-i18n="join-kpp-page-label-option-female"
+                    value="Mrs"
+                  >
+                    Mrs
+                  </option>
                 </select>
               </div>
             </div>
             <div class="kpp-name input-box">
-              <label for="name">Name *</label>
-              <input type="text" name="name" id="join-kpp-name" />
+              <label data-i18n="join-kpp-page-label-name" for="name"
+                >Name *</label
+              >
+              <input type="text" name="name" id="join-kpp-name" required />
             </div>
           </div>
           <div class="kpp-mobile input-box">
-            <label for="mobile">Mobile No *</label>
-            <input type="text" name="mobile" id="join-kpp-mobile" />
+            <label data-i18n="join-kpp-page-label-mobile" for="mobile"
+              >Mobile No *</label
+            >
+            <input type="text" name="mobile" id="join-kpp-mobile" required />
           </div>
           <div class="kpp-email input-box">
-            <label for="email">Email *</label>
-            <input type="email" name="email" id="join-kpp-email" />
+            <label data-i18n="join-kpp-page-label-email" for="email"
+              >Email *</label
+            >
+            <input type="email" name="email" id="join-kpp-email" required />
           </div>
           <div class="kpp-consent-btn input-box input-checkbox">
             <input
@@ -195,16 +213,21 @@
               name="consentBtn"
               value="yes"
               id="join-kpp-consentBtn"
+              required
             />
-            <label for="consentBtn"
+            <label for="consentBtn" data-i18n="join-kpp-page-label-consent"
               >I certify that above provided information is correct and there is
               no mistake. I know that all further communication will be done on
-              above provided details.</label
+              above provided details.</label
             >
           </div>
           <div class="column submit-and-download-section">
             <div class="kpp-form-submit-btn input-box">
-              <button type="submit" class="join-kpp-submit-button">
+              <button
+                type="submit"
+                data-i18n="join-kpp-page-label-submit-btn"
+                class="join-kpp-submit-button"
+              >
                 Submit
               </button>
             </div>
@@ -212,7 +235,10 @@
               <a
                 href="img/KONKAN-PRADESHIK-PAKSH-FORM.pdf"
                 download="join-kpp.pdf"
-                >Download e-form for offline application
+              >
+                <span data-i18n="join-kpp-page-link-download"
+                  >Download e-form for offline application</span
+                >
                 <span><i class="fa fa-file-pdf-o"></i></span>
               </a>
             </div>
@@ -241,7 +267,7 @@
               <a href="https://github.com/highflyer910"
                 ><i class="fa fa-address-book"></i>
                 <span data-i18n="footer-section-1-sub-heading-mobile">
-                  +91 9876543210</span
+                  +91 9876543210 &#47;</span
                 ></a
               >
             </li>

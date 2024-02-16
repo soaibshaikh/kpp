@@ -55,7 +55,7 @@
     "home-section-transform-btn-1":"Make A Donation!",
     "footer-section-1-heading":"Quick Contacts",
     "footer-section-1-sub-heading-mail": "konkanpradesh@gmail.com",
-    "footer-section-1-sub-heading-mobile":"+91 9876543210",
+    "footer-section-1-sub-heading-mobile":"9768472055 / 7218821000 / 9892180292",
     "footer-section-1-sub-heading-address":"1st Floor, 08, Mazhar Atlantis, Ugdha Maruti Mandir, Paag, Behind MSEB Power House, Chiplun, Dist:- Ratnagiri, 415605.",
     "footer-section-2-heading":"Page Links",
     "footer-section-2-sub-heading-tab-home":"Home",
@@ -105,7 +105,25 @@
     "contact-us-page-section-2-form-submit-btn":"Submit",
     "contact-us-page-section-2-form-input-placeholder-name":"Enter Your Name",
     "join-kpp-page-heading":"Join KPP",
-    "make-donation-page-heading":"Make Donation"     
+    "join-kpp-page-label-title":"Title *",
+    "join-kpp-page-label-option-male":"Mr.",
+    "join-kpp-page-label-option-female":"Mrs.",
+    "join-kpp-page-label-name":"Name *",
+    "join-kpp-page-label-mobile":"Mobile No *",
+    "join-kpp-page-label-email":"Email *",
+    "join-kpp-page-label-consent":"I certify that above provided information is correct and there is no mistake. I know that all further communication will be done on above provided details.",
+    "join-kpp-page-label-submit-btn":"Submit",
+    "join-kpp-page-link-download":"Download e-form for offline application",
+    "make-donation-page-heading":"Make Donation",
+    "make-donation-page-label-title":"Title *",
+    "make-donation-page-label-option-male":"Mr.",
+    "make-donation-page-label-option-female":"Mrs.",
+    "make-donation-page-label-name":"Name *",
+    "make-donation-page-label-mobile":"Mobile No *",
+    "make-donation-page-label-email":"Email *",
+    "make-donation-page-label-consent":"I certify that above provided information is correct and there is no mistake. I know that all further communication will be done on above provided details.",
+    "make-donation-page-label-submit-btn":"Submit",
+    "make-donation-page-link-download":"Download e-form for offline application" 
 
 
 

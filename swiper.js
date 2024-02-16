@@ -70,6 +70,7 @@ var TrandingSlider = new Swiper(".tranding-slider", {
   centeredSlides: true,
   loop: true,
   slidesPerView: "auto",
+  // autoHeight: true, //enable auto height
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
@@ -92,6 +93,7 @@ var TrandingSlider = new Swiper(".tranding-slider1", {
   centeredSlides: true,
   loop: true,
   slidesPerView: "auto",
+  // autoHeight: true, //enable auto height
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
@@ -112,20 +114,16 @@ var TrandingSlider = new Swiper(".tranding-slider1", {
 var swiper = new Swiper(".mySwiper-leader", {
   slidesPerView: 1,
   spaceBetween: 10,
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    // disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  },
+  // loop: true,
+  // autoplay: {
+  //   delay: 2500,
+  //   // disableOnInteraction: false,
+  //   pauseOnMouseEnter: true,
+  // },
   breakpoints: {
     640: {
       slidesPerView: 1,
