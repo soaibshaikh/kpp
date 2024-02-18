@@ -621,11 +621,15 @@ body {
 }
 
 .mySwiper-leader .card-content {
-    height: 6em;
+    height: 9rem;
     width: 100%;
     background-color: #2F3490;
     text-align: center;
-    /* padding-top: 20px; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mySwiper-leader .card-content h2 {
@@ -958,14 +962,6 @@ body {
 }
 
 
-.mySwiper3 .inspiration-pagination {
-    position: absolute;
-    bottom: 120px;
-    color: #fff;
-    /* background-color: #EF5B34; */
-    /* z-index: 100; */
-}
-
 .mySwiper3 .swiper-pagination-bullet-active {
     background-color: #fff;
 }
@@ -1007,6 +1003,13 @@ body {
     font-style: italic;
 }
 
+.mySwiper3 .inspiration-pagination {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    /* background-color: #EF5B34; */
+    /* z-index: 100; */
+}
 
 
 
@@ -1027,6 +1030,14 @@ body {
         height: 100%;
         top: 0;
 
+    }
+
+    .mySwiper3 .inspiration-pagination {
+        position: absolute;
+        bottom: 120px;
+        color: #fff;
+        /* background-color: #EF5B34; */
+        /* z-index: 100; */
     }
 
     .swiper-button-prev {
@@ -1258,6 +1269,24 @@ body {
     font-weight: 800;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .k1-banner-leader .k1-banner-leader-text button,
+    .k1-banner-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 5px;
+        color: black;
+        color: white;
+        /* background-color: #ddd; */
+        background-color: darkblue;
+        /* background-color: #ef5b34; */
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
 /* footer css */
 
 .section-6 {
@@ -1273,23 +1302,6 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
-/* .make-donation {
-    height: 50%;
-    width: 100%;
-    background-color: #6bf561;
-    color: violet;
-    font-size: 4vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(./img/donation.jpg);
-    object-fit: cover;
-} */
-
-/* .make-donation p {
-    margin: auto;
-} */
 
 .footer {
     width: 100%;
@@ -1316,6 +1328,7 @@ body {
 .mail-footer {
     display: flex;
     gap: 5px;
+    justify-content: center;
 }
 
 .copyright {

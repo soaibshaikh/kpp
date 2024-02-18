@@ -32,10 +32,9 @@ var swiper3 = new Swiper(".mySwiper3", {
     el: ".swiper-pagination",
     clickable: true,
   },
-
   loop: true,
   autoplay: {
-    delay: 25000,
+    delay: 2500,
     // disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -126,7 +125,7 @@ var swiper = new Swiper(".mySwiper-leader", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  // loop: true,
+  loop: true,
   // autoplay: {
   //   delay: 2500,
   //   // disableOnInteraction: false,
