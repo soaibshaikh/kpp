@@ -120,7 +120,7 @@ var TrandingSlider = new Swiper(".tranding-slider1", {
 // leaders slider
 var swiper = new Swiper(".mySwiper-leader", {
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 2,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -134,15 +134,15 @@ var swiper = new Swiper(".mySwiper-leader", {
   breakpoints: {
     640: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 2,
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 10,
+      spaceBetween: 2,
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 10,
+      spaceBetween: 2,
     },
   },
 });
