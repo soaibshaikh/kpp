@@ -113,10 +113,9 @@ body {
 }
 
 .logo {
-    width: 150px;
     grid-area: logo;
     margin-left: 60px;
-    height: 65px;
+    height: 55px;
 }
 
 .logo img {
@@ -128,6 +127,8 @@ body {
 @media screen and (max-width: 768px) {
     .logo {
         margin-left: 0px;
+        width: 170px;
+
     }
 
     .custom-select {
