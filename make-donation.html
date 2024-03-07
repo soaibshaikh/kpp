@@ -414,9 +414,11 @@
       const submitButton = document.querySelector(
         ".make-donation-form-submit-btn"
       );
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbxuqO6y2epN8PUHBwcf0tOgdyTg3o4WA3-16be7O1jY3l3ToIeQJEXxlfbN-mAW8HP0/exec";
+      // const scriptURL =
+      //   "https://script.google.com/macros/s/AKfycbxuqO6y2epN8PUHBwcf0tOgdyTg3o4WA3-16be7O1jY3l3ToIeQJEXxlfbN-mAW8HP0/exec";
 
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw122C3OiyufM7i7Wet57j4J7rQnmuJ4QWfPO4jQ8c9hFJRNUyc8E9QmxvbHIaPoSOX/exec";
       form.addEventListener("submit", (e) => {
         submitButton.disabled = true;
         submitButton.textContent = "Sending";

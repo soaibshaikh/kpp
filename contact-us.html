@@ -562,9 +562,11 @@
     <script>
       const form = document.querySelector(".main-contact-form");
       const submitButton = document.querySelector(".submit-button");
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbxuc6kYV0nEuqdEQQIuASIN2IxUsOWEFUvz2Im-8ZcX1jWxJmquJLCGOzTz5xA3vuj_/exec";
+      // const scriptURL =
+      //   "https://script.google.com/macros/s/AKfycbxuc6kYV0nEuqdEQQIuASIN2IxUsOWEFUvz2Im-8ZcX1jWxJmquJLCGOzTz5xA3vuj_/exec";
 
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwCySEOj82VOEL_ikUWgpGWYwzEzsjU_hYcKu0YkiwHoKE4pSldWYtZmAYXZ4voZuXLbg/exec";
       form.addEventListener("submit", (e) => {
         submitButton.disabled = true;
         submitButton.textContent = "Sending";

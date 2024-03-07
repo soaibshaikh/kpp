@@ -616,8 +616,8 @@ body {
 
 .mySwiper-leader .card-image {
     height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -636,6 +636,7 @@ body {
 
 .mySwiper-leader .swiper-slide .card-image .img-block {
     padding: 0 10px;
+    max-height: 550px;
 }
 
 
@@ -664,6 +665,7 @@ body {
 
 .mySwiper-leader .card-image .card-content {
     height: 9rem;
+    min-height: 30px;
     width: 100%;
     /* background-color: #2F3490; */
     text-align: center;
@@ -693,6 +695,11 @@ body {
         z-index: 100;
         margin-top: -60px;
     }
+
+    .mySwiper-leader .swiper-slide .card-image .img-block {
+        max-height: 250px;
+    }
+
 }
 
 /* .mySwiper-leader .card-image:hover img {

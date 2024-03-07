@@ -210,12 +210,12 @@
           <div class="kpp-consent-btn input-box input-checkbox">
             <input
               type="checkbox"
-              name="consentBtn"
+              name="consent-Button"
               value="yes"
               id="join-kpp-consentBtn"
               required
             />
-            <label for="consentBtn" data-i18n="join-kpp-page-label-consent"
+            <label for="consent-Button" data-i18n="join-kpp-page-label-consent"
               >I certify that above provided information is correct and there is
               no mistake. I know that all further communication will be done on
               above provided details.</label
@@ -429,8 +429,11 @@
       //   const form = document.forms["form-data-join-kpp"];
 
       const submitButton = document.querySelector(".join-kpp-submit-button");
+      // const scriptURL =
+      //   "https://script.google.com/macros/s/AKfycbyMNA_99f67XnlG15jkoretSWLorrRdLYLAITbVMazkOy4jYYiPeSG8K5uXU1yLn61d/exec";
+
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbyMNA_99f67XnlG15jkoretSWLorrRdLYLAITbVMazkOy4jYYiPeSG8K5uXU1yLn61d/exec";
+        "https://script.google.com/macros/s/AKfycbzEu6jlD5FrwrZ2jGWGUsVy7erRIKEF5XKv-xMx5T40sfgm6U7yiJwV0O5Q_5LkSTgRXg/exec";
 
       form.addEventListener("submit", (e) => {
         submitButton.disabled = true;
