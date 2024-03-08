@@ -237,6 +237,6 @@ window.addEventListener(
   setInterval(() => {
     document.getElementById("countValue").innerHTML = `${Number(
       counterInitialValue++
-    )}+`;
+    )}`;
   }, 1000)
 );
