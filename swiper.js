@@ -204,23 +204,39 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 // website counter
 
-const counters = document.querySelectorAll("#countValue");
-const animationSpeed = 500;
+// const counters = document.querySelectorAll("#countValue");
+// const animationSpeed = 500;
 
-counters.forEach((count) => {
-  const incrementCount = () => {
-    const finalValue = Number(count.getAttribute("data-target"));
-    const currentCount = Number(count.innerText);
+// counters.forEach((count) => {
+//   const incrementCount = () => {
+//     const finalValue = Number(count.getAttribute("data-target"));
+//     const currentCount = Number(count.innerText);
 
-    const incrementValue = finalValue / animationSpeed;
+//     const incrementValue = finalValue / animationSpeed;
 
-    if (currentCount < finalValue) {
-      count.innerText = Math.ceil(currentCount + incrementValue);
-      setTimeout(incrementCount, 1);
-    } else {
-      currentCount.innerText = finalValue;
-    }
-  };
+//     if (currentCount < finalValue) {
+//       count.innerText = Math.ceil(currentCount + incrementValue);
+//       setTimeout(incrementCount, 1);
+//     } else {
+//       currentCount.innerText = finalValue;
+//     }
+//   };
 
-  incrementCount();
-});
+//   incrementCount();
+// });
+
+function randomIntFromInterval(min, max) {
+  // min and max included
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+let counterInitialValue = randomIntFromInterval(25000, 26000);
+
+window.addEventListener(
+  "load",
+  setInterval(() => {
+    document.getElementById("countValue").innerHTML = `${Number(
+      counterInitialValue++
+    )}+`;
+  }, 1000)
+);
