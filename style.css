@@ -808,7 +808,7 @@ body {
 }
 
 .our-candidate .candidate-img .candidate-img-block {
-    /* width: 1000px; */
+    max-width: 750px;
     max-height: 95%;
 }
 
