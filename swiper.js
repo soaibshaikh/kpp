@@ -126,11 +126,11 @@ var swiper = new Swiper(".mySwiper-leader", {
     prevEl: ".swiper-button-prev",
   },
   loop: true,
-  // autoplay: {
-  //   delay: 2500,
-  //   // disableOnInteraction: false,
-  //   pauseOnMouseEnter: true,
-  // },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: true,
+    pauseOnMouseEnter: false,
+  },
   breakpoints: {
     640: {
       slidesPerView: 1,
