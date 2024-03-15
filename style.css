@@ -886,7 +886,7 @@ body {
 
     .our-candidate .candidate-img .candidate-img-block {
         width: 100%;
-        min-height: 400px;
+        min-height: 450px;
         max-height: 550px;
         padding: 0 5px;
     }
