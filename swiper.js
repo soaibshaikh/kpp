@@ -121,11 +121,12 @@ var TrandingSlider = new Swiper(".tranding-slider1", {
 var swiper = new Swiper(".mySwiper-leader", {
   slidesPerView: 1,
   spaceBetween: 2,
+  rewind: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  loop: true,
+  // loop: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: true,
